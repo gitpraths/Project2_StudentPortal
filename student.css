@@ -3,42 +3,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Main styles */
-body {
+  }
+  
+  /* Main styles */
+  body {
     font-family: sans-serif;
-    background: url('banner.jpeg') no-repeat center center fixed; 
-    background-size: cover;
-}
-
-.studentData {
-    background-color: rgba(255, 255, 255, 0.8); 
+    background: url('banner.jpeg') no-repeat center center fixed;
+    background-size: cover !important;
+  }
+  
+  .studentData {
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
-}
-
-.studentData input {
+  }
+  
+  .studentData input {
     margin-bottom: 10px;
-}
-
-table {
+    margin-left: 3cm;
+    justify-content: space-between;
+  }
+  
+  table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-}
-
-table, th, td {
+  }
+  
+  table, th, td {
     border: 1px solid black;
-}
-
-th, td {
+  }
+  
+  th, td {
     padding: 10px;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.8);
-}
-
-th {
+  }
+  
+  th {
     background-color: #f2f2f2;
-}
+  }
