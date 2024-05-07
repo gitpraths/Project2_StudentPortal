@@ -8,12 +8,12 @@
 /* Main styles */
 body {
     font-family: sans-serif;
-    background: url('banner.jpeg') no-repeat center center fixed; /* Replace 'your-background-image.jpg' with your actual image path */
+    background: url('banner.jpeg') no-repeat center center fixed; 
     background-size: cover;
 }
 
 .studentData {
-    background-color: rgba(255, 255, 255, 0.8); /* Example background color with opacity */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
